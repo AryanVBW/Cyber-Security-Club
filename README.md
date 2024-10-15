@@ -2,7 +2,7 @@
 
 Welcome to the Cyber Security Club of NST Pune! 🎉 Our mission is to promote awareness, education, and skills development in the field of cyber security among students. We aim to create a vibrant community where members can learn, share knowledge, and collaborate on projects.
 
-## Table of Contents 📚
+## Contents 📚
 
 - [About Us](#about-us)
 - [Objectives](#objectives)
