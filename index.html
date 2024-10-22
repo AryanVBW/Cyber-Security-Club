@@ -67,6 +67,20 @@ body {
   color: #66ff66;
 }
 
+.members-button {
+  font-size: 1.2rem;
+  color: #00ff00;
+  margin: 0 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+  float: right;
+}
+
+.members-button:hover {
+  color: #66ff66;
+}
+
 .vivek h1 {
   color: #00ff00;
   font-size: 2rem;
@@ -179,6 +193,8 @@ body {
         <nav class="header-links">
           <a class="link" href="#about">About</a>
           <a class="link" href="#projects">Projects</a>
+          <!-- New "Members" button -->
+          <a class="link members-button" href="members.html">Members</a>
         </nav>
         <a class="down" href="#about" data-scroll>
           <i class="icon fa fa-chevron-down" aria-hidden="true"></i>
@@ -235,6 +251,10 @@ body {
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script>
+      particlesJS.load('particles-js', './assets/js/particles.json', function () {
+        console.log('particles.js loaded');
+      });
+    </script>
   </body>
 </html>
